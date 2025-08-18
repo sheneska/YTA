@@ -19,7 +19,7 @@ export default function AboutPage() {
 
   return (
     <div className="overflow-x-hidden">
-      <section className="relative min-h-screen bg-gradient-to-br from-purple-600 via-purple-700 to-pink-600 overflow-hidden">
+      <section className="relative py-20 lg:py-32 bg-gradient-to-br from-purple-600 via-purple-700 to-pink-600 overflow-hidden">
         {/* Animated BG bubbles */}
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-white/10 rounded-full blur-3xl animate-float"></div>
@@ -28,7 +28,7 @@ export default function AboutPage() {
         </div>
 
         <div className="container mx-auto px-6 py-20 relative z-10">
-          <div className="grid lg:grid-cols-12 gap-8 min-h-screen items-center">
+          <div className="grid lg:grid-cols-12 gap-8 py-20 lg:py-32 items-center">
             {/* Left content */}
             <div className="lg:col-span-7 space-y-8 text-white">
               <div className="space-y-6 animate-fadeInUp">

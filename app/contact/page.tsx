@@ -62,7 +62,7 @@ export default function ContactPage() {
 
   if (isSubmitted) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-600 via-purple-700 to-pink-600">
+      <div className="py-20 lg:py-32 flex items-center justify-center bg-gradient-to-br from-purple-600 via-purple-700 to-pink-600">
         <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-3xl p-12 text-center max-w-md">
           <div className="w-20 h-20 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-6 animate-bounce">
             <CheckCircle className="w-10 h-10 text-white" />

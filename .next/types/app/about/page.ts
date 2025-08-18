@@ -1,4 +1,4 @@
-// File: /Users/sheneskawilliams/Downloads/yta-agency-site-styled/app/about/page.tsx
+// File: /Users/sheneskawilliams/Desktop/yta-agency-site-styled/app/about/page.tsx
 import * as entry from '../../../../app/about/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

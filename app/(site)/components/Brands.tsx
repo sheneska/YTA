@@ -38,12 +38,19 @@ export default function Brands() {
           </div>
 
           {/* logo grid (3 x 3, centered) */}
-          <div className="grid grid-cols-3 gap-16 lg:gap-20 items-center justify-items-center max-w-4xl mx-auto">
+<div className="
+  grid
+  grid-cols-3
+  sm:grid-cols-3
+  gap-x-12 gap-y-6
+  items-center justify-items-center
+  max-w-5xl mx-auto
+">
             {LOGOS.map((brand, i) => {
               const content = (
                 <div
-                  className="flex items-center justify-center h-24 w-full transition-transform duration-300 hover:scale-110"
-                  style={{ animationDelay: `${i * 100}ms` }}
+                className="flex items-center justify-center h-20 w-full sm:h-24 md:h-28"
+                style={{ animationDelay: `${i * 100}ms` }}
                 >
                   {brand.src ? (
                     <Image
@@ -52,7 +59,7 @@ export default function Brands() {
                       width={220}
                       height={80}
                       // Bigger & crisp; invert makes dark logos appear white on the purple panel.
-                      className="h-34 md:h-36 w-auto object-contain opacity-95"
+                      className="object-contain opacity-95 hover:opacity-100 transition h-32 sm:h-36 md:h-40 w-auto drop-shadow-[0_4px_10px_rgba(0,0,0,0.3)]"
                     />
                   ) : (
                     <span className="text-white font-semibold text-lg">
