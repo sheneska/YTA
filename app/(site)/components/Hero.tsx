@@ -24,7 +24,7 @@ export default function Hero() {
     <section
       className="
         relative overflow-hidden pt-24
-        min-h-[120vh]
+        py-24 lg:py-40
         bg-gradient-to-b
         from-purple-600
         via-purple-700
