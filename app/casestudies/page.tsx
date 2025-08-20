@@ -4,23 +4,24 @@ import FeaturedStudy from './featuredstudy';
 
 const featuredStudy = {
   image: '/assets/case-studies/nike.jpg',
-  title: 'Nike Summer Campaign',
-  subtitle: 'Driving Athletic Lifestyle Engagement',
-  category: 'Lifestyle & Fitness',
-  brand: 'Nike',
+  title: 'Stush In The Bush Case Study',
+  subtitle: 'Authenticity in different ambiances',
+  category: 'Travel & Explore',
+  brand: 'Stush In The Bush',
   duration: '3 months',
-  challenge: 'Nike wanted to increase brand awareness among Gen Z while maintaining brand authenticity...',
-  solution: 'We partnered with 15 high-performing creators to produce engaging user-generated content and distribute across TikTok and Instagram.',
+  challenge: 'Stush In The Bush wanted to increase brand awareness while maintaining brand authenticity...',
+  solution: 'We partnered with one of our travel creators, Romie to authentically highlight and promote brand offerings, emphasizing unique selling points such as the sophisticated ambiance, its original menu as well as unique aspects of their location and service.',
   results: {
-    reach: '27.2M+',
-    engagement: '8.1%',
-    conversions: '105K+',
-    roi: '337%',
+    views: '958K+',
+    likes: '82K',
+    comments: '660',
+    shares: '33K',
+    saves: '44K'
   },
   testimonial: {
     quote: 'Young Talent Agency delivered exceptional results that far exceeded our expectations.',
     author: 'Sarah Johnson',
-    role: 'Marketing Director at Nike',
+    role: 'Marketing Director at Stush In The Bush',
   }
 };
 

@@ -67,10 +67,10 @@ export default function AboutPage() {
               {/* Buttons */}
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <button className="px-8 py-4 bg-white text-purple-600 rounded-2xl font-semibold hover:bg-gray-100 transform hover:scale-105 transition">
-                  Discover Our Story
+                  Learn More
                 </button>
                 <button className="px-8 py-4 border-2 border-white text-white rounded-2xl font-semibold hover:bg-white hover:text-purple-600 transform hover:scale-105 transition flex items-center">
-                  Watch Our Journey
+                  Get Started
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </button>
               </div>
@@ -111,13 +111,13 @@ export default function AboutPage() {
               {/* Mission card */}
               <div className="bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-md border border-white/20 rounded-3xl p-8 hover:from-white/20 hover:to-white/10 transition">
                 <div className="flex items-start space-x-4">
-                  <div className="w-16 h-10 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-[12px] flex items-center justify-center">
+                  <div className="w-32 h-10 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-[12px] flex items-center justify-center">
                     <Target className="w-6 h-6 text-white" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-white mb-3">Our Mission</h3>
                     <p className="text-purple-100 leading-relaxed">
-                      Empowering creators and brands to build authentic connections that drive real impact and lasting success.
+                      Our mission is to connect brands and creators to drive success through influencer marketing and talent management, empowering brands to tell impactful stories and helping creators build sustainable careers. 
                     </p>
                   </div>
                 </div>

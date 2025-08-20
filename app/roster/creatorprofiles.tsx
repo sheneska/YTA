@@ -3,51 +3,48 @@ import Image from 'next/image';
 
 const influencers = [
   {
-    name: "Luna Martinez",
-    handle: "@lunamartinez",
+    name: "Romie Robertson",
+    handle: "@roamingwithromie",
     category: "Lifestyle & Travel",
-    image: "/assets/creators/creator10.jpeg",
+    image: "/assets/creators/creator2.jpg",
     bio: "Globetrotting lifestyle creator sharing authentic travel experiences and sustainable living tips.",
     specialties: [
       "Sustainable Travel",
       "Lifestyle Content",
       "Brand Partnerships",
-      "Photography",
     ],
-    recentBrands: ["Airbnb", "Patagonia", "GoPro", "Booking.com"],
-    followers: "2.3M",
+    recentBrands: ["Airbnb", "Patagonia", "GoPro", "Expedia"],
+    followers: "23.7K",
     engagement: "4.8%",
     platforms: [
-      { name: "Instagram", followers: "1.2M", verified: true },
-      { name: "TikTok", followers: "800K", verified: true },
+      { name: "Instagram", followers: "23.7K", verified: false },
+      { name: "TikTok", followers: "2755", verified: false },
       { name: "YouTube", followers: "300K", verified: false },
     ],
   },
   {
-    name: "Luna Martinez",
-    handle: "@lunamartinez",
-    category: "Lifestyle & Travel",
-    image: "/assets/creators/creator15.png",
+    name: "Jade McIntosh",
+    handle: "@jadetroi",
+    category: "Lifestyle",
+    image: "/assets/creators/creator7.png",
     bio: "Globetrotting lifestyle creator sharing authentic travel experiences and sustainable living tips.",
     specialties: [
-      "Sustainable Travel",
       "Lifestyle Content",
       "Brand Partnerships",
-      "Photography",
     ],
-    recentBrands: ["Airbnb", "Patagonia", "GoPro", "Booking.com"],
-    followers: "2.3M",
+    recentBrands: ["KFC"],
+    followers: "18.7K",
     engagement: "4.8%",
     platforms: [
-      { name: "Instagram", followers: "1.2M", verified: true },
+      { name: "Instagram", followers: "18.7K", verified: false },
       { name: "TikTok", followers: "800K", verified: true },
       { name: "YouTube", followers: "300K", verified: false },
     ],
   },
   {
-    name: "Luna Martinez",
-    handle: "@lunamartinez",
-    category: "Lifestyle & Travel",
+    name: "Cle Hunninghan",
+    handle: "@cle",
+    category: "Travel",
     image: "/assets/creators/creator4.jpg",
     bio: "Globetrotting lifestyle creator sharing authentic travel experiences and sustainable living tips.",
     specialties: [
@@ -66,9 +63,9 @@ const influencers = [
     ],
   },
   {
-    name: "Luna Martinez",
-    handle: "@lunamartinez",
-    category: "Lifestyle & Travel",
+    name: "Josiah William Gordon",
+    handle: "@josiahwg",
+    category: "Lifestyle",
     image: "/assets/creators/creator5.jpg",
     bio: "Globetrotting lifestyle creator sharing authentic travel experiences and sustainable living tips.",
     specialties: [
@@ -81,7 +78,7 @@ const influencers = [
     followers: "2.3M",
     engagement: "4.8%",
     platforms: [
-      { name: "Instagram", followers: "1.2M", verified: true },
+      { name: "Instagram", followers: "360K", verified: false },
       { name: "TikTok", followers: "800K", verified: true },
       { name: "YouTube", followers: "300K", verified: false },
     ],
@@ -220,7 +217,7 @@ export default function CreatorProfiles() {
                     </div>
 
                     <button className="w-full px-6 py-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-2xl font-semibold hover:shadow-lg transform hover:scale-105 transition-all duration-300">
-                      View Full Profile
+                      Learn More
                     </button>
                   </div>
                 </div>

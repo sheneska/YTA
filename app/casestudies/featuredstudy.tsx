@@ -13,10 +13,11 @@ export interface FeaturedStudy {
   challenge: string;
   solution: string;
   results: {
-    reach: string;
-    engagement: string;
-    conversions: string;
-    roi: string;
+    views: string;
+    likes: string;
+    comments: string;
+    saves: string;
+    shares: string;
   };
   testimonial: {
     quote: string;
@@ -46,13 +47,14 @@ export default function FeaturedCaseStudy({
         <div className="grid lg:grid-cols-2">
           {/* Left */}
           <div className="relative">
-            <Image
-              src={featuredStudy.image}
-              alt={featuredStudy.title}
-              width={800}
-              height={800}
+            <video
+              src="/assets/ui/stushinthebushcasestudy.mp4"
+              autoPlay
+              muted
+              loop
+              playsInline
               className="w-full h-80 lg:h-full object-cover"
-            />
+            ></video>
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent lg:bg-gradient-to-r lg:from-black/70 lg:via-black/30 lg:to-transparent" />
             <div className="absolute bottom-8 left-8 text-white">
               <span className="inline-block px-3 py-1 bg-gradient-to-r from-purple-500/80 to-pink-500/80 rounded-full mb-3">
@@ -109,10 +111,11 @@ export default function FeaturedCaseStudy({
                 </h4>
                 <div className="grid grid-cols-2 gap-4">
                   {[
-                    { val: featuredStudy.results.reach, label: 'Total Reach', gradient: 'from-purple-50 to-pink-50', border: 'border-purple-100' },
-                    { val: featuredStudy.results.engagement, label: 'Engagement Rate', gradient: 'from-blue-50 to-purple-50', border: 'border-blue-100' },
-                    { val: featuredStudy.results.conversions, label: 'Conversions', gradient: 'from-green-50 to-blue-50', border: 'border-green-100' },
-                    { val: featuredStudy.results.roi, label: 'ROI', gradient: 'from-yellow-50 to-orange-50', border: 'border-yellow-100' },
+                    { val: featuredStudy.results.views, label: 'Total Views', gradient: 'from-purple-50 to-pink-50', border: 'border-purple-100' },
+                    { val: featuredStudy.results.likes, label: 'Likes', gradient: 'from-blue-50 to-purple-50', border: 'border-blue-100' },
+                    { val: featuredStudy.results.comments, label: 'Comments', gradient: 'from-green-50 to-blue-50', border: 'border-green-100' },
+                    { val: featuredStudy.results.shares, label: 'Shares', gradient: 'from-yellow-50 to-orange-50', border: 'border-yellow-100' },
+                    { val: featuredStudy.results.saves, label: 'Saves', gradient: 'from-yellow-50 to-orange-50', border: 'border-yellow-100' },
                   ].map((r, idx) => (
                     <div key={idx} className={`bg-gradient-to-br ${r.gradient} p-6 rounded-2xl text-center border ${r.border}`}>
                       <p className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">

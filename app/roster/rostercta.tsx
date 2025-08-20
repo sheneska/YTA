@@ -12,19 +12,18 @@ export default function RosterCta() {
 
       <div className="container mx-auto px-6 text-center relative z-10">
         <h2 className="text-4xl lg:text-5xl font-bold mb-8">
-          Want to Work with Our Creators?
+          Want to Join Young Talent Agency?
         </h2>
         <p className="text-xl mb-10 text-purple-100 max-w-3xl mx-auto">
-          Get in touch to discuss partnership opportunities with our talented
-          roster of creators who can bring your brand vision to life.
+          Get in touch to discuss partnership opportunities as a creator or a brand.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <button className="px-8 py-4 bg-white text-purple-600 rounded-xl font-semibold hover:bg-gray-100 transform hover:scale-105 transition-all duration-300 shadow-xl">
-            Start a Partnership
+            Become a YTA Brand Partner
           </button>
           <button className="px-8 py-4 border-2 border-white text-white rounded-xl font-semibold hover:bg-white hover:text-purple-600 transform hover:scale-105 transition-all duration-300">
-            View All Creators
+            Become a YTA Creator
           </button>
         </div>
       </div>

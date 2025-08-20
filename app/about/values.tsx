@@ -5,16 +5,16 @@ import { Heart, Zap, Globe, Award } from 'lucide-react';
 export default function Values() {
   const values = [
     {
-      title: 'Authenticity First',
+      title: 'Our Vision',
       description:
-        'We believe genuine connections drive the most meaningful campaigns and lasting partnerships.',
+        'We envision a future where diverse voices and perspectives take center stage in marketing and personalized talent management, we help brands tell compelling stories that resonate with their audiences and support creators in building sustainable careers. We are committed to delivering exceptional results, fostering innovation, and cultivating lasting partnerships that drive mutual success. ',
       icon: Heart,
       color: 'from-pink-500 to-fuchsia-500',
     },
     {
-      title: 'Innovation Driven',
+      title: 'Our Culture',
       description:
-        'Staying ahead of trends while pioneering new approaches to influencer marketing.',
+        'At Young Talent Agency, we foster a collaborative and creative culture focused on innovation and empowerment. We value each individual&apos;s strength and strive to inspire success through authenticity and excellence, creating lasting impressions. ',
       icon: Zap,
       color: 'from-amber-400 to-orange-500',
     },
@@ -39,14 +39,17 @@ export default function Values() {
       <div className="container mx-auto px-6">
         <div className="text-center mb-20">
           <h2 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
-            Values That
+            Talent that Inspires.
             <span className="block bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-              Drive Everything
+              Connects.Converts.
             </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Our core principles guide every decision, partnership, and creative
-            endeavor we undertake.
+            At Young Talent Agency, we specialize in bridging the gap between brands and creators to 
+            spark meaningful collaborations that inspire and engage. Through personalized talent management 
+            and innovative influencer marketing, we empower creators to excel and help brands connect with 
+            their audiences authentically. Our commitment to creativity and representation ensures impactful 
+            partnerships that drive growth and deliver results for everyone we serve. Creating connections, Empowering success. 
           </p>
         </div>
 
