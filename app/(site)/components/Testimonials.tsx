@@ -16,7 +16,7 @@ const TESTIMONIALS: Testimonial[] = [
       "I never knew the difference having an efficient and organized management team could make! Getting things done without lifting a finger, securing deals with ease having the administrative side of negotiations handled and being presented with deals – all of which comes simply and easily while utilizing the services of Young Talent Agency.",
     name: 'Jade McIntosh',
     role: 'Creator',
-    avatar: '/assets/creators/creator7.png',
+    avatar: '/assets/creators/creator15.png',
     rating: 5,
   },
   {
@@ -24,7 +24,7 @@ const TESTIMONIALS: Testimonial[] = [
       "Young Talent Agency has completely changed the trajectory of my influencer career. Since I'm not a full time creator, I have little time to pitch brands and negotiate contracts. Not only have they taken care of my partnerships from pitching to closing, but their professionalism, responsiveness, and reliability make my experience top-notch. Being managed by them is worth every penny.",
     name: 'Romie Robertson',
     role: 'Creator',
-    avatar: '/assets/creators/creator10.jpeg',
+    avatar: '/assets/creators/creator11.jpeg',
     rating: 5,
   },
 ];

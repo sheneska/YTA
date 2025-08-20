@@ -9,7 +9,7 @@ export default function Creators() {
     "/assets/creators/creator3.jpg",
     "/assets/creators/creator4.jpg",
     "/assets/creators/creator5.jpg",
-    "/assets/creators/creator6.png",
+    "/assets/creators/creator15.png",
   ];
 
   // One set of cards
