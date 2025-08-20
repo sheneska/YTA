@@ -43,4 +43,7 @@ body { font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Ro
 body {
   @apply bg-white;
 }
+html, body {
+  overflow-x: hidden;
+}
 

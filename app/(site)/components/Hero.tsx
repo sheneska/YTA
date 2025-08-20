@@ -98,13 +98,13 @@ export default function Hero() {
                   href="#"
                   className="px-8 py-4 bg-white text-purple-600 rounded-xl font-semibold hover:bg-gray-100 transform hover:scale-105 transition-all duration-300 shadow-xl"
                 >
-                  {selectedTab === 'creator' ? 'Join Our Network' : 'Start Campaign'}
+                  {selectedTab === 'creator' ? 'View Brand Services' : 'View Case Studies'}
                 </a>
                 <a
                   href="#"
                   className="px-8 py-4 border-2 border-white text-white rounded-xl font-semibold hover:bg-white hover:text-purple-600 transform hover:scale-105 transition-all duration-300"
                 >
-                  {selectedTab === 'creator' ? 'View Creator Benefits' : 'View Case Studies'}
+                  {selectedTab === 'creator' ? 'View Creator Services' : 'View Case Studies'}
                 </a>
               </div>
             </div>

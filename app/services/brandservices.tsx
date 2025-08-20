@@ -57,7 +57,7 @@ export default function BrandServices() {
                     <Icon className="w-8 h-8" />
                   </div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">{service.title}</h3>
-                  <p className="text-gray-600 mb-6 leading-relaxed min-h-[3rem]">{service.description}</p>
+                  <p className="text-gray-600 mb-6 leading-relaxed">{service.description}</p>
                   <ul className="space-y-3 mb-6 flex-grow">
                     {service.features.map((feature, i) => (
                       <li key={i} className="flex items-center">

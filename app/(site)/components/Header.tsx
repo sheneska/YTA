@@ -146,7 +146,8 @@ export default function Header() {
                 );
               })}
               <a
-                href="#contact"
+                href="/contact"
+                onClick={() => setIsMenuOpen(false)}
                 className="mt-2 px-6 py-3 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-xl font-semibold text-center"
               >
                 Get Started
