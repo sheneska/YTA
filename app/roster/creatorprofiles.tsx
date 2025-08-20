@@ -26,7 +26,7 @@ const influencers = [
     name: "Jade McIntosh",
     handle: "@jadetroi",
     category: "Lifestyle",
-    image: "/assets/creators/creator7.png",
+    image: "/assets/creators/creator15.png",
     bio: "Globetrotting lifestyle creator sharing authentic travel experiences and sustainable living tips.",
     specialties: [
       "Lifestyle Content",
