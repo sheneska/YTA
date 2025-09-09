@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Link from "next/link";
 import { Sparkles, Play, Pause, Target, ArrowRight } from 'lucide-react';
 import { Eye, Users, Rocket, Star } from 'lucide-react';
 import Image from 'next/image';
@@ -46,8 +47,7 @@ export default function AboutPage() {
                 </h1>
 
                 <p className="text-xl lg:text-2xl text-purple-100 max-w-2xl leading-relaxed">
-                  We&apos;re not just an agency — we&apos;re the bridge between authentic creativity and business success,
-                  crafting partnerships that resonate across generations.
+                  We&apos;re not just an agency — we&apos;re your growth partner. By blending compelling brand narratives with precision outreach, we create collaborations that drive results.
                 </p>
               </div>
 
@@ -66,13 +66,20 @@ export default function AboutPage() {
 
               {/* Buttons */}
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                <button className="px-8 py-4 bg-white text-purple-600 rounded-2xl font-semibold hover:bg-gray-100 transform hover:scale-105 transition">
+                <Link
+                  href="/services"
+                  className="px-8 py-4 bg-white text-purple-600 rounded-2xl font-semibold hover:bg-gray-100 transform hover:scale-105 transition text-center"
+                >
                   Learn More
-                </button>
-                <button className="px-8 py-4 border-2 border-white text-white rounded-2xl font-semibold hover:bg-white hover:text-purple-600 transform hover:scale-105 transition flex items-center">
+                </Link>
+                
+                <Link
+                  href="/contact"
+                  className="px-8 py-4 border-2 border-white text-white rounded-2xl font-semibold hover:bg-white hover:text-purple-600 transform hover:scale-105 transition flex items-center justify-center"
+                >
                   Get Started
                   <ArrowRight className="w-5 h-5 ml-2" />
-                </button>
+                </Link>
               </div>
             </div>
 
@@ -117,7 +124,7 @@ export default function AboutPage() {
                   <div>
                     <h3 className="text-xl font-bold text-white mb-3">Our Mission</h3>
                     <p className="text-purple-100 leading-relaxed">
-                      Our mission is to connect brands and creators to drive success through influencer marketing and talent management, empowering brands to tell impactful stories and helping creators build sustainable careers. 
+                    Our mission is to champion talent by connecting them with aligned brands through strategic pitching and talent support. We aim to amplify authentic voices, foster meaningful partnerships, and equip digital creators with the tools and outreach needed to grow intentional, sustainable careers.
                     </p>
                   </div>
                 </div>

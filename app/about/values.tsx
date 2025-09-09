@@ -6,8 +6,7 @@ export default function Values() {
   const values = [
     {
       title: 'Our Vision',
-      description:
-        'We envision a future where diverse voices and perspectives take center stage in marketing and personalized talent management, we help brands tell compelling stories that resonate with their audiences and support creators in building sustainable careers. We are committed to delivering exceptional results, fostering innovation, and cultivating lasting partnerships that drive mutual success. ',
+      description:'We envision a future where talent of all backgrounds are recognized not just for their reach, but for their voice, value, and influence. At Young Talent Agency, we aim to champion diverse talent and ensure creators are consistently positioned in front of the brands that align with their identity and goals. Through intentional outreach, strategy, and support, we strive to create space for authentic partnerships and sustainable growth. Our vision is to redefine success in the digital space by focusing on fit, not formulas — building long-term opportunities that benefit both creators and brands.',
       icon: Heart,
       color: 'from-pink-500 to-fuchsia-500',
     },
@@ -45,11 +44,7 @@ export default function Values() {
             </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            At Young Talent Agency, we specialize in bridging the gap between brands and creators to 
-            spark meaningful collaborations that inspire and engage. Through personalized talent management 
-            and innovative influencer marketing, we empower creators to excel and help brands connect with 
-            their audiences authentically. Our commitment to creativity and representation ensures impactful 
-            partnerships that drive growth and deliver results for everyone we serve. Creating connections, Empowering success. 
+          At Young Talent Agency, we specialize in helping talent get in front of the brands that fit them best. Through personalized outreach and tailored pitching strategies, we connect talent with aligned partnerships — not just based on size, but on synergy.
           </p>
         </div>
 

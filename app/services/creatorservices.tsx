@@ -1,18 +1,21 @@
 'use client';
 
-import { User, Globe, TrendingUp } from 'lucide-react';
+import { User, Globe } from 'lucide-react';
 
 export default function CreatorServices() {
   const creatorServices = [
     {
       icon: User,
-      title: 'Basic Talent Management',
+      title: 'Pitching Services',
       description:
-        'The essentials for managing your brand collaborations with professional support and guidance.',
+        'Custom brand outreach and follow-ups crafted to help creators stand out and be considered for collaboration opportunities.',
       features: [
-        'Brand Deal Communication',
-        'Fee Negotiation',
-        'Seamless Coordination',
+        'Custom pitches monthly (10–30 depending on tier)',
+        'Verified lead generation',
+        'Targeted, personalized outreach',
+        'Weekly status updates',
+        'Brand tracker provided',
+        'Follow-up management',
       ],
     },
     {
@@ -20,23 +23,7 @@ export default function CreatorServices() {
       title: 'Web Development & Design',
       description:
         'For creators wanting to showcase their talent in a modern, sleek, and professional way while targeting their ideal audience.',
-      features: [
-        'Custom coded websites',
-        'SEO',
-        'Maintenance',
-      ],
-    },
-    {
-      icon: TrendingUp,
-      title: 'Advanced Talent Management',
-      description:
-        'For creators ready to take their brand to the next level with comprehensive management.',
-      features: [
-        'Everything in Basic',
-        'Email Monitoring',
-        'New Partnership Outreach',
-        'Brand Outreach',
-      ],
+      features: ['Custom coded websites', 'SEO', 'Maintenance'],
     },
   ];
 
@@ -56,25 +43,33 @@ export default function CreatorServices() {
           Empowering Creator Success
         </h2>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-          Comprehensive support to help you build a sustainable career as a digital creator
+          Comprehensive support to help you build a sustainable career as a
+          digital creator
         </p>
       </div>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {/* Centered grid */}
+      <div className="grid md:grid-cols-2 gap-8 justify-items-center max-w-5xl mx-auto">
         {creatorServices.map((service, index) => {
           const Icon = service.icon;
           return (
             <div
               key={index}
-              className="group bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-purple-100 relative overflow-hidden flex flex-col h-full"
+              className="group bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-purple-100 relative overflow-hidden flex flex-col h-full w-full"
             >
               <div className="absolute inset-0 bg-gradient-to-br from-purple-50 to-pink-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="relative z-10 flex flex-col h-full">
-                <div className={`inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br ${gradients[index]} rounded-2xl mb-6 text-white shadow-lg`}>
+                <div
+                  className={`inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br ${gradients[index]} rounded-2xl mb-6 text-white shadow-lg`}
+                >
                   <Icon className="w-8 h-8" />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">{service.title}</h3>
-                <p className="text-gray-600 mb-6 leading-relaxed">{service.description}</p>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                  {service.title}
+                </h3>
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  {service.description}
+                </p>
                 <ul className="space-y-3 mb-6 flex-grow">
                   {service.features.map((feature, i) => (
                     <li key={i} className="flex items-center">

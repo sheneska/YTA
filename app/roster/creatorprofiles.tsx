@@ -7,7 +7,7 @@ const influencers = [
     handle: "@roamingwithromie",
     category: "Lifestyle & Travel",
     image: "/assets/creators/creator2.jpg",
-    bio: "Globetrotting lifestyle creator sharing authentic travel experiences and sustainable living tips.",
+    bio: "A storyteller by heart and adventurer by nature. Romie blends cultual curiosity with budget-conscious travel. From ancient ruins to bustling city streets, she uncovers the history behind every destination and shares it with an engaged, globally-minded audience.",
     specialties: [
       "Sustainable Travel",
       "Lifestyle Content",
@@ -27,7 +27,7 @@ const influencers = [
     handle: "@jadetroi",
     category: "Lifestyle",
     image: "/assets/creators/creator15.png",
-    bio: "Globetrotting lifestyle creator sharing authentic travel experiences and sustainable living tips.",
+    bio: "Doctor by profession, creator by passion - Jade brings an authentic flare to everything she does. Whether she's sharing her fitness journey, carnival looks, or favorite food finds, her audience connects with her vibrant, confident energy. ",
     specialties: [
       "Lifestyle Content",
       "Brand Partnerships",
@@ -42,11 +42,11 @@ const influencers = [
     ],
   },
   {
-    name: "Cle Hunninghan",
-    handle: "@cle",
-    category: "Travel",
-    image: "/assets/creators/creator4.jpg",
-    bio: "Globetrotting lifestyle creator sharing authentic travel experiences and sustainable living tips.",
+    name: "George Brown JR",
+    handle: "@maddawg_70",
+    category: "Lifestyle & Travel Creator",
+    image: "/assets/creators/creator16.jpg",
+    bio: "Family-first traveler who turns everyday trips and simple moments into memorable stories. From road trips to local food finds to family adventures, George shares authentic experiences that inspire others to explore.",
     specialties: [
       "Sustainable Travel",
       "Lifestyle Content",
@@ -57,30 +57,9 @@ const influencers = [
     followers: "2.3M",
     engagement: "4.8%",
     platforms: [
-      { name: "Instagram", followers: "1.2M", verified: true },
-      { name: "TikTok", followers: "800K", verified: true },
-      { name: "YouTube", followers: "300K", verified: false },
-    ],
-  },
-  {
-    name: "Josiah William Gordon",
-    handle: "@josiahwg",
-    category: "Lifestyle",
-    image: "/assets/creators/creator5.jpg",
-    bio: "Globetrotting lifestyle creator sharing authentic travel experiences and sustainable living tips.",
-    specialties: [
-      "Sustainable Travel",
-      "Lifestyle Content",
-      "Brand Partnerships",
-      "Photography",
-    ],
-    recentBrands: ["Airbnb", "Patagonia", "GoPro", "Booking.com"],
-    followers: "2.3M",
-    engagement: "4.8%",
-    platforms: [
-      { name: "Instagram", followers: "360K", verified: false },
-      { name: "TikTok", followers: "800K", verified: true },
-      { name: "YouTube", followers: "300K", verified: false },
+      { name: "Instagram", followers: "360K", verified: true },
+      // { name: "TikTok", followers: "800K", verified: true },
+      { name: "YouTube", followers: "8K", verified: false },
     ],
   }
 ];

@@ -8,8 +8,13 @@ export default function ServicesPage() {
   return (
     <main>
       <ServicesHero />
-      <CreatorServices />
-      <BrandServices />
+      <section id="creator-services">
+        <CreatorServices />
+      </section>
+
+      <section id="brand-services">
+        <BrandServices />
+      </section>
       <ServicesCTA />
     </main>
   );
